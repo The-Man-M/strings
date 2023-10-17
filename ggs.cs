@@ -73,4 +73,25 @@
                                       dateAndTime, temperature);
         Console.WriteLine(result);
     }
+    public void imprimir_6()
+    {
+        int p = 500;
+        Console.WriteLine(string.Format("hola {0:x}",p));
+    
+    }public void imprimir_7()
+    {
+        string frase = "Lo peor que una niña de 10 años fue la que me hizo la pregunta";
+        string frase1 = "pregunta";
+        int pp = frase1.Length;
+     //   Console.WriteLine(pp);
+        string q = frase.Substring(24, 12);
+        string q2 = frase.Substring(8, 4);
+       string  q3= frase.Substring(36,3);
+       string  q4= frase.Substring(16,5);
+       string  q5= frase.Substring(43,11);
+       string  q6= frase.Substring(3,5);
+       string  q7= frase.Substring(54,8);
+
+        Console.WriteLine(string.Concat(q,q2,q3,q4,q5,q6,q7));
+    }
 }
